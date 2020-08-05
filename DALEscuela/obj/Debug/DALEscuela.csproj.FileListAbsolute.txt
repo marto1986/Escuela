@@ -1,0 +1,5 @@
+C:\Desarrollos\EscuelaDemo\DALEscuela\bin\Debug\DALEscuela.dll.config
+C:\Desarrollos\EscuelaDemo\DALEscuela\bin\Debug\DALEscuela.dll
+C:\Desarrollos\EscuelaDemo\DALEscuela\bin\Debug\DALEscuela.pdb
+C:\Desarrollos\EscuelaDemo\DALEscuela\obj\Debug\DALEscuela.dll
+C:\Desarrollos\EscuelaDemo\DALEscuela\obj\Debug\DALEscuela.pdb

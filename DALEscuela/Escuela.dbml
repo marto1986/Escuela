@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Test" Class="EscuelaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-3JQCHT2\SQLMARTIN;Initial Catalog=Test;Integrated Security=True" SettingsObjectName="DALEscuela.Properties.Settings" SettingsPropertyName="TestConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.SPAalumnos" Method="SPAalumnos">
+    <Parameter Name="AlumnoId" Parameter="alumnoId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="ApPaterno" Parameter="apPaterno" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="ApMaterno" Parameter="apMaterno" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Email" Parameter="email" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SPEalumnos" Method="SPEalumnos">
+    <Parameter Name="AlumnoId" Parameter="alumnoId" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SPIalumnos" Method="SPIalumnos">
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="ApPaterno" Parameter="apPaterno" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="ApMaterno" Parameter="apMaterno" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Email" Parameter="email" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SPSalumnos" Method="SPSalumnos">
+    <ElementType Name="SPSalumnosResult">
+      <Column Name="ClaveAlumno" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ApellidoPaterno" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ApellidoMaterno" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CorreoElectronico" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

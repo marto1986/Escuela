@@ -1,0 +1,7 @@
+C:\Desarrollos\EscuelaDemo\BTL_Escuela\bin\Debug\BTL_Escuela.dll
+C:\Desarrollos\EscuelaDemo\BTL_Escuela\bin\Debug\BTL_Escuela.pdb
+C:\Desarrollos\EscuelaDemo\BTL_Escuela\bin\Debug\DALEscuela.dll
+C:\Desarrollos\EscuelaDemo\BTL_Escuela\bin\Debug\DALEscuela.pdb
+C:\Desarrollos\EscuelaDemo\BTL_Escuela\obj\Debug\BTL_Escuela.csprojResolveAssemblyReference.cache
+C:\Desarrollos\EscuelaDemo\BTL_Escuela\obj\Debug\BTL_Escuela.dll
+C:\Desarrollos\EscuelaDemo\BTL_Escuela\obj\Debug\BTL_Escuela.pdb
